@@ -1,0 +1,30 @@
+
+/*======BASE====*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smoth ;
+}
+body{
+
+    background-color:rgba(221, 126, 48, 0.7);
+}
+img{
+    border-radius: 100%;
+}
+table,th{
+    border: 1px solid rgb(99, 13, 13);
+    border-spacing: 5px;
+    padding: 10px;
+    border-radius:5% ;
+    background-color: rgba(99, 13, 13,0.5);
+}
+caption{
+    text-decoration: orangered;
+    font-size: 30px;
+}
+dl{
+    text-align: center;
+}
